@@ -1,0 +1,21 @@
+ <div class="tns-carousel-wrapper row mb-5">
+    <div class="col-md-8">
+        <div class="tns-carousel-inner" data-carousel-options='{"nav": false, "gutter": 20}'>
+        <blockquote class="blockquote mt-3 mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <footer class="d-flex align-items-center">
+            <img src="./assets/medias/Lucas-3.jpg.webp" class="rounded-circle" width="42" alt="Emma Brown"/>
+            <div class="text-heading fs-md fw-medium ps-2 ms-1">Lucas Demea</div>
+            </footer>
+        </blockquote>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="tns-carousel-pager d-flex flex-wrap flex-md-column justify-content-center align-items-center align-items-md-start border-start pt-4 mt-4 ps-md-3 pt-md-0 mt-md-0">
+        <a href="https://www.digital-swing.com/" class="swap-image active mx-4 my-3 my-md-4" data-goto="1" target="blank">
+            <img src="./assets/medias/DS.svg" class="swap-to" width="80" alt="Logo"/>
+            <img src="./assets/medias/DS-none.svg" class="swap-from" width="80" alt="Logo"/>
+        </a>
+        </div>
+    </div>
+</div>

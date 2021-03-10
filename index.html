@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mathieu N. - Portfolio - Developpeur Full-Stack</title>
+      <link rel="stylesheet" href="./assets/css/theme.min.css">
+      <link rel="stylesheet" href="./assets/css/index.css">
+      
+      <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+      <link rel="manifest" href="./favicon/site.webmanifest">
+      <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+
+      <script>
+      (function () {
+          window.onload = function () {
+            var preloader = document.querySelector('.page-loading');
+            preloader.classList.remove('active');
+            setTimeout(function () {
+              preloader.remove();
+            }, 2000);
+          };
+        })();
+      </script>
+  </head>
+  <body>
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Chargement...</span>
+      </div>
+    </div>
+    <header class="navbar navbar-expand-lg navbar-light bg-light navbar-shadow position-fixed w-100" style="z-index: 6">
+      <div class="container px-0 px-xl-3">
+        <a class="navbar-brand order-lg-1 me-0 pe-lg-2 me-lg-4" href="#intro">
+          <svg  width="200" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 100.98" style="enable-background:new 0 0 500 100.98;" xml:space="preserve">
+              <g>
+                  <g>
+                      <g>
+                          <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="102.6293" y1="50.4918" x2="184.0749" y2="50.4918">
+                              <stop  offset="0" style="stop-color:#D1BAD2"/>
+                              <stop  offset="1" style="stop-color:#A5A4CB"/>
+                          </linearGradient>
+                          <path class="st0" d="M145.6,11.32c16.95,0,30.69,13.74,30.69,30.68s-13.16,30.2-30.11,30.2l-26.11,0V38.76h-9.17
+                              c-1.31,0-2.55,0.31-3.65,0.86c-2.74,1.35-4.63,4.16-4.63,7.42v25.17v9.17c0,4.57,3.71,8.28,8.28,8.28l34.69-0.02
+                              c21.31-0.38,38.47-17.76,38.47-39.16C184.07,29.08,166.91,11.7,145.6,11.32z"/>
+                          <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="102.6293" y1="41.777" x2="176.2933" y2="41.777">
+                              <stop  offset="0" style="stop-color:#F8C5D1"/>
+                              <stop  offset="1" style="stop-color:#9592C7"/>
+                          </linearGradient>
+                          <path class="st1" d="M146.18,72.23c16.95,0,30.11-13.28,30.11-30.22s-13.75-30.67-30.69-30.67l-42.97-0.02v9.17
+                              c0,4.57,3.71,8.28,8.28,8.28l31.8,0c1.07,0,2.13,0.09,3.18,0.29c10.35,2.01,20.87,10.84,20.87,21.44
+                              c0,10.62-7.57,19.47-17.61,21.45C148.18,72.15,147.18,72.23,146.18,72.23z"/>
+                      </g>
+                      <g>
+                          
+                              <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="289.4513" y1="-69.1615" x2="370.8969" y2="-69.1615" gradientTransform="matrix(-1 0 0 -1 383.5198 -18.6697)">
+                              <stop  offset="0" style="stop-color:#D1BAD2"/>
+                              <stop  offset="1" style="stop-color:#A5A4CB"/>
+                          </linearGradient>
+                          <path class="st2" d="M94.07,62.22V28.77v-9.17c0-4.57-3.71-8.28-8.28-8.28L51.1,11.34C29.79,11.72,12.62,29.1,12.62,50.5
+                              c0,21.4,17.16,38.78,38.47,39.16c-21.19,0-37.38-21.48-27.94-43.85c3.98-9.43,15.87-17.04,26.1-17.04l27.37,0v24.91
+                              c0,4.72,3.82,8.54,8.54,8.54H94.07z"/>
+                          
+                              <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="289.4513" y1="-77.8763" x2="363.1153" y2="-77.8763" gradientTransform="matrix(-1 0 0 -1 383.5198 -18.6697)">
+                              <stop  offset="0" style="stop-color:#F8C5D1"/>
+                              <stop  offset="1" style="stop-color:#9592C7"/>
+                          </linearGradient>
+                          <path class="st3" d="M50.51,28.75c-18.04,0-30.11,13.28-30.11,30.22S34.15,89.64,51.1,89.64l42.97,0.02v-9.17
+                              c0-4.57-3.71-8.28-8.28-8.28l-31.8,0c-1.07,0-2.13-0.09-3.18-0.29c-10.35-2.01-20.87-10.84-20.87-21.44
+                              c0-10.62,7.57-19.47,17.61-21.45C48.52,28.84,49.52,28.75,50.51,28.75z"/>
+                      </g>
+                  </g>
+                  <g>
+                      <path class="st4" d="M292.73,66.2h-22.7V34.78h21.92v2.3h-19.63V48.7h18.4v2.3h-18.4v12.91h20.4V66.2z"/>
+                      <path class="st4" d="M329.47,34.78L317.16,66.2h-2.96l-12.31-31.42h2.55l11.25,28.55l11.25-28.55H329.47z"/>
+                      <path class="st4" d="M369.11,66.2h-2.3V38.54L355.51,66.2h-2.41l-11.28-27.66V66.2h-2.3V34.78h3.33l11.45,28.55l11.54-28.55h3.27
+                          V66.2z"/>
+                      <path class="st4" d="M395.53,34.21c2.14,0,4.12,0.38,5.94,1.15c1.82,0.76,3.38,1.86,4.69,3.27s2.33,3.12,3.07,5.11
+                          s1.1,4.21,1.1,6.66c0,2.43-0.36,4.65-1.09,6.66c-0.73,2.01-1.75,3.73-3.06,5.18c-1.31,1.45-2.87,2.56-4.68,3.36
+                          c-1.81,0.79-3.8,1.19-5.98,1.19c-2.18,0-4.18-0.4-6-1.19c-1.82-0.79-3.38-1.91-4.69-3.34s-2.33-3.16-3.06-5.17
+                          c-0.73-2.01-1.09-4.24-1.09-6.69c0-2.47,0.37-4.7,1.1-6.69c0.74-1.99,1.76-3.69,3.08-5.09c1.32-1.41,2.88-2.49,4.69-3.26
+                          C391.38,34.59,393.36,34.21,395.53,34.21z M395.5,64.48c1.8,0,3.46-0.31,4.98-0.93c1.52-0.62,2.84-1.54,3.95-2.74
+                          c1.11-1.21,1.97-2.68,2.58-4.43c0.61-1.75,0.92-3.75,0.92-5.98c0-2.26-0.31-4.25-0.93-5.97c-0.62-1.72-1.48-3.17-2.58-4.35
+                          c-1.1-1.18-2.4-2.07-3.9-2.67s-3.14-0.9-4.92-0.9c-1.82,0-3.49,0.31-5.01,0.92c-1.52,0.61-2.84,1.51-3.95,2.68
+                          c-1.11,1.18-1.98,2.63-2.6,4.35s-0.93,3.7-0.93,5.94s0.31,4.23,0.92,5.98c0.61,1.75,1.47,3.23,2.57,4.43
+                          c1.1,1.21,2.41,2.12,3.93,2.74C392.04,64.17,393.7,64.48,395.5,64.48z"/>
+                      <path class="st4" d="M435.42,34.21c2.14,0,4.12,0.38,5.94,1.15c1.82,0.76,3.38,1.86,4.69,3.27c1.31,1.42,2.33,3.12,3.07,5.11
+                          c0.74,1.99,1.11,4.21,1.11,6.66c0,2.43-0.36,4.65-1.09,6.66c-0.73,2.01-1.75,3.73-3.06,5.18c-1.31,1.45-2.87,2.56-4.67,3.36
+                          c-1.81,0.79-3.8,1.19-5.99,1.19c-2.18,0-4.18-0.4-6-1.19c-1.82-0.79-3.38-1.91-4.69-3.34c-1.31-1.43-2.33-3.16-3.06-5.17
+                          s-1.09-4.24-1.09-6.69c0-2.47,0.37-4.7,1.1-6.69c0.74-1.99,1.76-3.69,3.08-5.09s2.88-2.49,4.69-3.26
+                          C431.28,34.59,433.26,34.21,435.42,34.21z M435.4,64.48c1.8,0,3.46-0.31,4.98-0.93c1.52-0.62,2.83-1.54,3.94-2.74
+                          c1.11-1.21,1.97-2.68,2.58-4.43c0.61-1.75,0.92-3.75,0.92-5.98c0-2.26-0.31-4.25-0.93-5.97c-0.62-1.72-1.48-3.17-2.58-4.35
+                          c-1.1-1.18-2.4-2.07-3.9-2.67c-1.5-0.6-3.14-0.9-4.92-0.9c-1.82,0-3.48,0.31-5.01,0.92c-1.52,0.61-2.83,1.51-3.94,2.68
+                          c-1.11,1.18-1.98,2.63-2.6,4.35c-0.62,1.72-0.93,3.7-0.93,5.94s0.31,4.23,0.92,5.98c0.61,1.75,1.47,3.23,2.57,4.43
+                          c1.1,1.21,2.41,2.12,3.93,2.74C431.94,64.17,433.6,64.48,435.4,64.48z"/>
+                      <path class="st4" d="M255.67,56.44V34.81h-9.5c-5.3,0-9.27,1.28-11.91,3.83c-2.64,2.55-3.96,6.42-3.96,11.61
+                          c0,10.64,5.29,15.96,15.87,15.96h9.5v-2.3h-2.3h-7.15c-2.62,0-4.8-0.31-6.53-0.92c-1.73-0.61-3.11-1.51-4.15-2.68
+                          c-1.03-1.18-1.76-2.61-2.18-4.29s-0.63-3.61-0.63-5.77c0-2.07,0.2-3.91,0.62-5.54c0.41-1.63,1.13-3.01,2.17-4.15
+                          c1.03-1.14,2.41-2,4.15-2.6c1.73-0.59,3.92-0.89,6.56-0.89h7.15v19.36H255.67z"/>
+                      <path class="st4" d="M462.01,44.58V66.2h9.5c5.3,0,9.27-1.28,11.91-3.83c2.64-2.55,3.96-6.42,3.96-11.61
+                          c0-10.64-5.29-15.96-15.87-15.96h-9.5v2.3h2.3h7.15c2.62,0,4.8,0.31,6.53,0.92c1.73,0.61,3.11,1.51,4.15,2.68s1.76,2.61,2.18,4.29
+                          c0.42,1.68,0.63,3.61,0.63,5.77c0,2.07-0.2,3.91-0.62,5.54c-0.41,1.63-1.13,3.01-2.17,4.15s-2.41,2-4.15,2.6
+                          c-1.73,0.59-3.92,0.89-6.56,0.89h-7.15V44.58H462.01z"/>
+                  </g>
+              </g>
+          </svg>
+        </a>
+        <div class="d-flex align-items-center order-lg-3">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse1"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse order-lg-2" id="navbarCollapse1">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="#soft_skills">Soft skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#recommandations">Recommandations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tarifs">Mes tarifs</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  
+    <section id="intro" class="position-relative bg-secondary pb-svg-lg-2 pt-svg-lg-2">
+      <div class="shape shape-bottom shape-curve bg-body">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
+          <path fill="currentColor" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
+        </svg>
+      </div>
+      <div class="container pt-3 pb-4 pt-lg-0">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mt-lg-n7 pb-5 mb-sm-3 mb-lg-0 pb-lg-0 text-center text-lg-start">
+            <h1 class="display-4">Salut ! Je m'appelle Mathieu</h1>
+            <h2 class="pb-2 text-muted">Développeur JavaScript Full-Stack.</h2>
+            <div class="text-nowrap d-flex d-sm-block flex-column">
+              <a class="btn btn-translucent-primary me-3" href="https://www.linkedin.com/in/nesseirm/" target="blank">
+                  <i class="ai-linkedin mt-n1 me-2"></i>
+                  Discutons ensemble
+              </a>
+              <a class="btn  me-3" href="./assets/download/cv.pdf" target="blank">
+                  <i class="ai-arrow-down-circle mt-n1 me-2"></i>
+                  Télécharger mon CV
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 palette-bg d-none d-lg-block">
+            <div class="parallax mx-auto" style="max-width: 705px;">
+              <div class="parallax-layer position-relative" data-depth="0.3"><img src="./assets/medias/illu1/montage_1.svg" alt="Layer"></div>
+              <div class="parallax-layer" data-depth="0.3"><img src="./assets/medias/illu1/montage_2.svg" alt="Layer"></div>
+              <div class="parallax-layer" data-depth="0.2"><img src="./assets/medias/illu1/montage_3.svg" alt="Layer"></div>
+              <div class="parallax-layer" data-depth="0.1"><img src="./assets/medias/illu1/montage_4.svg" alt="Layer"></div>
+              <div class="parallax-layer" data-depth="0.1"><img src="./assets/medias/illu1/montage_5.svg" alt="Layer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="container position-relative zindex-5" style="margin-top: -175px;">
+      <div class="bg-light rounded-3 shadow py-5 py-md-6 px-4 px-md-0">
+        <div class="row align-items-center py-3 py-md-0">
+          <div class="col-xl-6 col-lg-5 col-md-4 d-flex justify-content-center">
+            <h2 class="pb-3 pb-md-0"><span class="d-block text-body opacity-50">À propos de</span> mon parcours.</h2>
+          </div>
+          <div class="col-xl-5 col-lg-6 col-md-7 text-center text-md-start">
+            <p>À la base, j'ai fait des études d'arts mais je me suis naturellement intéressé à l'informatique et à la programmation. J'ai commencé mon apprentissage en autodidacte, puis, j'ai eu la chance de pouvoir réaliser une année d'apprentissage avec OpenClassRooms et l'agence web Digital-Swing.<p>
+            <p class="mb-0">Aujourd'hui, je pratique le développement web à plein temps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="container py-7">
+      <blockquote class="blockquote text-center">
+        <p class="lead text-muted">« Je serais toujours meilleur qu’hier et moins bien que demain. »</p>
+      </blockquote>
+      <div class="text-nowrap text-center d-flex d-sm-block flex-column">
+        <a class="btn btn-translucent-primary me-3" href="https://www.linkedin.com/in/nesseirm/" target="blank">
+            <i class="ai-linkedin mt-n1 me-2"></i>
+            Discutons ensemble
+        </a>
+        <a class="btn  me-3" href="./assets/download/cv.pdf" target="blank">
+            <i class="ai-arrow-down-circle mt-n1 me-2"></i>
+            Télécharger mon CV
+        </a>
+      </div>
+    </section>
+
+    <section id="soft_skills" class="py-5 bg-secondary">
+      <h2 class="pb-3 pb-md-0 text-center"><span class="d-block text-body opacity-50 text-white">Voyons ensemble comment lié</span> mes connaissances à vos besoins.</h2>
+      <div class="container">
+        
+        <div class="row align-items-center border-bottom py-5">
+          <div class="col-md-6">
+            <img src="assets/medias/frontend.svg" class="swap-to" alt="Illustration front-end"/>
+          </div>
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+            <h3 class="h4 mb-4">La partie visible de l'iceberg</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Création de sites web responsive.</span></li>
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Connecté une API REST à la partie front-end.</span></li>
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Les meilleurs frameworks / librairies pour une interface moderne.</span></li>
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Technologies et outils:</h4>
+            <p class="pb-1">HTML, CSS, JS, Vue.js, React.js, Axios, Bootstrap, Tailwind CSS, etc ...</p>
+            <a class="fw-medium" href="https://www.linkedin.com/in/nesseirm/" target="blank">
+              J'ai besoin d'un dev front-end !
+              <i class="ai-chevron-right fs-xl ms-1 align-middle"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="row align-items-center border-bottom py-5">
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+            <h3 class="h4 mb-4">La partie cachée de l'iceberg</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Mise en place d'une API.</span></li>
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Connecté une base de donnée SQL ou NoSQL.</span></li>
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Les meilleurs frameworks / librairies pour un back-office moderne.</span></li>
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Technologies et outils:</h4>
+            <p class="pb-1">JavaScript, PHP, Node.js, Express, Laravel, MySQL, MongoDB, Firebase, Postman...</p>
+            <a class="fw-medium" href="https://www.linkedin.com/in/nesseirm/" target="blank">
+              J'ai besoin d'un dev back-end !
+              <i class="ai-chevron-right fs-xl ms-1 align-middle"></i>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <img src="assets/medias/backend.svg" class="swap-to" alt="Illustration Backend"/>
+          </div>
+        </div>
+      
+        <div class="row align-items-center border-bottom py-5">
+          <div class="col-md-6">
+            <img src="assets/medias/automatisation.svg" class="swap-to" alt="Illustration automatisation"/>
+          </div>
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+            <h3 class="h4 mb-4">Facilitons-nous la vie !</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Connaissances des outils No-Code / Low-Code.</span></li>
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Connecté les outils entre-eux afin de travailler dans les meilleurs conditions.</span></li>
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>SEO.</span></li>
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Technologies et outils:</h4>
+            <p class="pb-1">WordPress, Airtable, Zapier, Integromat, Bootstrap Studio, Google Analytics...</p>
+            <a class="fw-medium" href="https://www.linkedin.com/in/nesseirm/" target="blank">
+              Connectons-nous à la simplicité.
+              <i class="ai-chevron-right fs-xl ms-1 align-middle"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row align-items-center pt-5">
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+            <h3 class="h4 mb-4">Travailler dur c'est bien,<br> travailler intelligemment c'est mieux !</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Connaissances des outils de gestion de projet.</span></li>
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Méthode Scrum et Agile.</span></li>
+              <li class="d-flex mb-2 pb-1">
+                <i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Rapide et efficace.</span></li>
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Technologies et outils:</h4>
+            <p class="pb-1">Github, Gitlab, Notion, Trello, Monday, Slack, Zoom...</p>
+            <a class="fw-medium" href="https://www.linkedin.com/in/nesseirm/" target="blank">
+              Je te veux dans mon équipe.
+              <i class="ai-chevron-right fs-xl ms-1 align-middle"></i>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <img src="assets/medias/agile.svg" class="swap-to" alt="Illustration agile"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="recommandations" class="container py-7">
+      <h2 class="pb-3 pb-md-0 text-center mb-7"><span class="d-block text-body opacity-50">J'ai travaillé avec eux,</span> ils me recommandent.</h2>
+      <p class="text-mued text-center h4">Ça arrive très bientôt !</p>
+      <div class="text-nowrap text-center d-flex d-sm-block flex-column">
+        <a class="btn btn-translucent-primary me-3" href="https://www.linkedin.com/in/nesseirm/" target="blank">
+            <i class="ai-linkedin mt-n1 me-2"></i>
+            Discutons ensemble
+        </a>
+        <a class="btn  me-3" href="./assets/download/cv.pdf" target="blank">
+            <i class="ai-arrow-down-circle mt-n1 me-2"></i>
+            Télécharger mon CV
+        </a>
+      </div>
+    </section>
+    <section id="tarifs" class="container py-5">
+      <h2 class="pb-3 pb-md-0 text-center"><span class="d-block text-body opacity-50 text-white">Mon profil vous intéresse ?</span> Voici mes tarifs.</h2>
+      <div class="row py-5">
+        <div class="col-md-4 order-md-1 order-2 mb-5 mb-md-0">
+          <div class="card w-100">
+            <div class="card-img-top bg-secondary text-center py-5 px-grid-gutter">
+              <h3 class="text-body mb-0">Free-lance pour entreprise</h3>
+            </div>
+            <div class="card-body px-grid-gutter py-grid-gutter">
+              <div class="d-flex align-items-end py-2 px-4 mb-4">
+                <span class="h2 fw-normal text-muted mb-1 me-2">€</span>
+                <span class="price display-2 fw-normal text-primary px-1 me-2">350</span>
+                <span class="h3 fs-lg fw-medium text-muted mb-2">par<br>jour</span>
+              </div>
+              <ul class="list-unstyled py-2 mb-4">
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Missions courte ou longue durée</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Création d'un site complet</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Conception d'une interface utilisateur</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Mise en place d'un serveur avec base de donnée</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Amélioration de composants</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Ajout d'une nouvelle fonctionnalité</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Intégration web</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Résolution de bugs présent</span>
+                </li>
+              </ul>
+              <div class="text-nowrap text-center d-flex d-sm-block flex-column">
+                <a class="btn btn-translucent-primary me-3" href="https://www.linkedin.com/in/nesseirm/" target="blank">
+                    <i class="ai-linkedin mt-n1 me-2"></i>
+                    Discutons ensemble
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 order-md-2 order-1 mb-5 mb-md-0">
+          <div class="card card-active w-100">
+            <div class="card-img-top bg-devmood text-center py-5 px-grid-gutter">
+              <h3 class="text-light mb-0">Contrat salarié<br> CDI</h3>
+            </div>
+            <div class="card-body px-grid-gutter py-grid-gutter">
+              <div class="d-flex align-items-end py-2 px-4 mb-4">
+                <span class="h2 fw-normal text-muted mb-1 me-2">Salaire<br> à négocier</span>
+              </div>
+              <ul class="list-unstyled py-2 mb-4">
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Développeur Front-end</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Développeur Back-end</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Développeur Full-Stack</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>>= 35 heures</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Régions PACA</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Bonne équipe</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Bonne ambiance</span>
+                </li>
+              </ul>
+              <div class="text-nowrap text-center d-flex d-sm-block flex-column">
+                <a class="btn btn-translucent-primary me-3" href="https://www.linkedin.com/in/nesseirm/" target="blank">
+                    <i class="ai-linkedin mt-n1 me-2"></i>
+                    Discutons ensemble
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 order-md-3 order-3">
+          <div class="card w-100">
+            <div class="card-img-top bg-secondary text-center py-5 px-grid-gutter">
+              <h3 class="text-body mb-0">Une idée pour un gros projet ?</h3>
+            </div>
+            <div class="card-body px-grid-gutter py-grid-gutter">
+              <div class="d-flex align-items-end py-2 px-4 mb-4">
+                <span class="h2 fw-normal text-muted mb-1 me-2">Devis personnalisé.</span>
+              </div>
+              <ul class="list-unstyled py-2 mb-4">
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Landing page</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Site vitrines</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <i class="ai-check fs-xl text-primary me-2"></i>
+                  <span>Site e-commerce</span>
+                </li>
+              </ul>
+              <div class="text-nowrap text-center d-flex d-sm-block flex-column">
+                <a class="btn btn-translucent-primary me-3" href="https://www.linkedin.com/in/nesseirm/" target="blank">
+                    <i class="ai-linkedin mt-n1 me-2"></i>
+                    Discutons ensemble
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="bg-secondary position-relative pt-7">
+        <div class="shape shape-top shape-curve-side bg-body">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 250">
+            <path fill="currentColor" d="M3000,250V0H0v51c572.7-34.3,1125.3-34.3,1657.8,0C2190.3,85.2,2637.7,151.6,3000,250z"></path>
+          </svg>
+        </div>
+        <div class="container text-center text-md-start">
+          <img src="./assets/medias/DEVMOOD_TEXT_SVG.svg" alt="Devmood logo" class="mb-5 w-25" />
+          <div class="row border-bottom mb-3">
+            <div class="col-md-4 col-12 mb-3">
+              <p class="h1">Mathieu</p>
+              <p class="pb-2 h2 text-muted">Développeur JavaScript Full-Stack.</p>
+            </div>
+            <div class="col-md-6 col-12 d-flex align-items-center justify-content-center justify-content-md-end mb-5 mb-lg-0">
+              <a href="https://www.linkedin.com/in/nesseirm/" class="lead text-muted" target="blank"><i class="ai-linkedin"></i></a>
+              <a href="https://github.com/JunsyG92?tab=repositories" class="lead text-muted mx-5" target="blank"><i class="ai-github"></i></a>
+              <a href="mailto:mathieu.nesseir@gmail.com" class="lead text-muted"><i class="ai-mail"></i></a>
+            </div>
+          </div>
+          <div class="row">
+            <p>@ All rights reserved. Made by <a href="https://www.linkedin.com/in/nesseirm/" target="blank">Devmood</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/tiny-slider.js"></script>
+    <script src="./assets/js/parallax.min.js"></script>
+    <script src="./assets/js/smooth-scroll.polyfills.min.js"></script>
+    <script src="./assets/js/theme.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script>
+      let t = document.getElementsByClassName('tns-liveregion')
+      t[0].remove()
+
+    </script>
+  </body>
+</html>

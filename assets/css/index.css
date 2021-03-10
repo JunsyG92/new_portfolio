@@ -1,0 +1,123 @@
+
+.lm0{fill:url(#SVGIDM_1_);}
+.lm1{fill:url(#SVGIDM_2_);}
+.lm2{fill:url(#SVGIDM_3_);}
+.lm3{fill:url(#SVGIDM_4_);}
+.st0{fill:url(#SVGID_1_);}
+.st1{fill:url(#SVGID_2_);}
+.st2{fill:url(#SVGID_3_);}
+.st3{fill:url(#SVGID_4_);}
+body {
+    color: #262626 !important
+}
+.page-loading {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .4s .2s ease-in-out;
+    transition: all .4s .2s ease-in-out;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+}
+.page-loading.active {
+    opacity: 1;
+    visibility: visible;
+}
+.page-loading-inner {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    opacity: 0;
+}
+.page-loading.active > .page-loading-inner {
+    opacity: 1;
+}
+.page-loading-inner > span {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #737491;
+}
+.page-spinner {
+    display: inline-block;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-bottom: .75rem;
+    vertical-align: text-bottom;
+    border: .15em solid #766df4;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner .75s linear infinite;
+    animation: spinner .75s linear infinite;
+}
+@-webkit-keyframes spinner {
+    100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+}
+@keyframes spinner {
+    100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    }
+}
+
+.pb-svg-lg-1 {
+    padding-bottom: 5rem
+}
+.pb-svg-lg-2 {
+    padding-bottom: 10rem
+}
+.pb-svg-lg-3 {
+    padding-bottom: 15rem
+}
+.pb-svg-lg-4 {
+    padding-bottom: 20rem
+}
+.pb-svg-lg-5 {
+    padding-bottom: 25rem
+}
+
+.pt-svg-lg-1 {
+    padding-top: 5rem
+}
+.pt-svg-lg-2 {
+    padding-top: 10rem
+}
+.pt-svg-lg-3 {
+    padding-top: 15rem
+}
+.pt-svg-lg-4 {
+    padding-top: 20rem
+}
+.pt-svg-lg-5 {
+    padding-top: 25rem
+}
+
+.palette-bg {
+    background-image: url("../medias/palette-svg.svg");
+    background-repeat: no-repeat;
+    height: 425px
+}
+.bg-devmood {
+    background: #f8c5d1;
+    background: -moz-linear-gradient(left,  #f8c5d1 0%, #9592c7 100%);
+    background: -webkit-linear-gradient(left,  #f8c5d1 0%,#9592c7 100%);
+    background: linear-gradient(to right,  #f8c5d1 0%,#9592c7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8c5d1', endColorstr='#9592c7',GradientType=1 );
+
+}
